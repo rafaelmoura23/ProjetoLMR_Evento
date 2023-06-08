@@ -42,15 +42,15 @@ body{
 .caixaAtras{
     width: 1200px;
     height: 580px;
-    background-color:rgb(183, 182, 182);
+    background-image: url(img/PIyxDE\ 1.png);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    color: black;
     opacity: 95%;
+
 
 }
 .box{ 
@@ -66,11 +66,6 @@ body{
         border-color:transparent;
         border-radius: 15px;
         opacity: 100%;
-}
-
-.imgLeft img{
-    width: 500px;
-    height: 500px;
 }
 
 .box p{
