@@ -11,7 +11,7 @@ body {
 }
 
 body.dark{
-    background-color: #263538;
+    background-color: #00586a;
 }
 
 .checkbox{
@@ -59,20 +59,6 @@ body.dark{
 }
 .fa-sun{
     color: #f39c12;
-}
-
-
-
-
-
-
-
-
-
-
-.carouselExampleDark {
-    color: white;
-    background-color: white;
 }
 
 .nav{
@@ -307,7 +293,6 @@ p{
 .icones{
     display: flex;
     justify-content:center;
-    align-items:flex-end;
 }
 
 .redesSociais h5{
@@ -326,6 +311,10 @@ p{
     width: 50px;
 }
 .fa-youtube{
+    width: 50px;
+}
+
+.fa-github{
     width: 50px;
 }
 
