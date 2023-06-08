@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;  
+    transition: background 0.2s linear ;
+
+}
+
+body.dark{
+    background-color: #263538;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+.label{
+    background-color: black;
+    border-radius: 50px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px;
+    position: relative;
+
+    height: 26px;
+    width: 50px;
+
+    transform: sclae(1.5);
+}
+
+.label .ball{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+
+    transform: translateX(0px);
+    transform: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+.fa-moon{
+    color: #f1c40f;
+}
+.fa-sun{
+    color: #f39c12;
+}
+
+
+
+
+
+
+
+
+
+
+.carouselExampleDark {
+    color: white;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+.nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nav a:hover::after{
+    width: 100%;
+}
+
+.titleBox{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    height: 545px;
+    background:rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    align-items:center;
+}
+
+.titleBox h1{
+    font-size: 65px;
+    text-align: center;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.titleBox img{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+#btnKnow{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    padding: 10px;
+    width: 180px;
+    margin-left: 140px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-size: 22px;
+    border: none;
+}
+
+#btnKnow:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+#btnKnow:hover::after{
+    width: 100%;
+}
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 1400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.carousel-inner img {
+    width: 1400px;
+    height: 600px;
+    border: 2px;
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+    overflow: hidden;
+}
+
+.eventosImagens {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.cidadesImagens{
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    border: 3px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.card-header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.card-header img{
+    border-radius: 5px;
+}
+
+footer {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+hr{
+    color: white;
+}
+
+p{
+    font-size: 19px;
+}
+
+
+
+
+.geralCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: filter, transform 0.2s;
+}
+
+.card1{
+    transition: filter, transform 0.2s;
+}
+.card2{
+    transition: filter, transform 0.2s; 
+}
+.card3{
+    transition: filter, transform 0.2s; 
+}
+.card4{
+    transition: filter, transform 0.2s; 
+}
+.card5{
+    transition: filter, transform 0.2s; 
+}
+.card6{
+    transition: filter, transform 0.2s; 
+}
+.card7{
+    transition: filter, transform 0.2s; 
+}
+
+.card1:hover {
+    filter: blur(0.3px);
+    transform: scale(1.1);
+}
+.card2:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card3:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card4:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card5:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card6:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card7:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+
+.icones{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.redesSociais h5{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.fa-linkedin{
+    width: 50px;
+}
+.fa-facebook{
+    width: 50px;
+}
+.fa-instagram{
+    width: 50px;
+}
+.fa-youtube{
+    width: 50px;
+}
+

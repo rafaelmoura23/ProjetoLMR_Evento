@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+
+body{
+    background-image: url(img/background_image.png);
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size: 23px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+.nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nav a:hover::after{
+    width: 100%;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 580px;
+    background:rgb(42, 42, 42);
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 93%;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.box h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+
+.box hr{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn{
+    padding: 10px;
+    width: 180px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-size: 22px;
+    border: none;
+    float: center;
+    margin-left: 115px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+#btnKnow:hover::after{
+    width: 100%;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+hr{
+    color: white;
+}
