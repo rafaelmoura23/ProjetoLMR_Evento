@@ -58,8 +58,6 @@ let card = `<div class="card" style="width: 18rem; heigth=27rem">
 preview.src = "";
 document.getElementById("paragrafo").innerHTML += card;
 
-
-
 }
 
 
