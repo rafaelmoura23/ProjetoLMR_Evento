@@ -196,6 +196,7 @@ body.dark{
     height: 300px;
     width: 200px;
     border: 3px;
+    box-shadow: 10px 10px 10px rgb(14, 14, 14);
 }
 
 h3 {
@@ -227,8 +228,6 @@ hr{
 p{
     font-size: 19px;
 }
-
-
 
 
 .geralCards{
