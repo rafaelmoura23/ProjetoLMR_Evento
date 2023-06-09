@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleCadastroEventos.css">
+</head>
+<body>
+
+  <header class="py-3 my-4"> <!-- header -->
+    <nav class="navbar bg-body-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-light text-decoration-none ">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <a href=""><img src="img/Prisma_de_Newton-removebg-preview.png" alt="" width="200px" height="110px"
+              class="navImagem"></a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 link-body-primary">
+            <li><a href="" class="px-2 ">My Events</a></li>
+            <li><a href="" class="px-2">Citys</a></li>
+            <li><a href="" class="px-2">SignUp</a></li>
+            <li><a href="" class="px-2">SignIn</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-4 mb-lg-0 me-lg-4" role="search">
+            <input type="search" class="form-control link-body-primary" placeholder="Eventos..." aria-label="Search">
+          </form>
+
+          <div class="dropdown text-end">
+            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/minions.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+  <div class="container">
+    <div class="row">
+    <div class="box">
+    <h2>CADASTRO</h2>
+    <hr>
+    <form action="" id="meuForm">
+        <div class="mb-3">
+            <label for="pNome" class="form-label">Nome do Palestrante</label>
+            <input type="text" class="form-control" id="pNome" placeholder="">
+          </div>
+        
+          <div class="mb-3">
+            <label for="pEvento" class="form-label">Nome do Evento</label>
+            <input type="text" class="form-control" id="pEvento" placeholder="">
+          </div>
+         
+          <div class="mb-3">
+            <label for="pParticipantes" class="form-label">Número de Participantes</label>
+            <input type="number" class="form-control" id="pParticipantes" placeholder="">
+          </div>
+        
+        <label for="pData">Data do Evento</label>
+        <select name="" id="pData" class="form-control">
+            <option value="">27/06/2023</option>
+            <option value="">30/06/2023</option>
+            <option value="">20/07/2023</option>
+            <option value="">15/08/2023</option>
+        </select>
+
+       
+    <br>
+        <input type="button" class="btn" value="CADASTRAR" onclick="evento()">
+ <br>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="scriptCadastro.js"></script>
+</html>
+
