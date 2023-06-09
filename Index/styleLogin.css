@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body{
-    background-image: url(img/buraco-negro.jpg);
+    background-image: url(img/nasaFundo.jpg);
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
@@ -42,25 +42,23 @@ body{
 .caixaAtras{
     width: 1200px;
     height: 580px;
-    background-image: url(img/PIyxDE\ 1.png);
+    background-image: url(img/fundoo.png);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    opacity: 95%;
-
-
 }
+
 .box{ 
         color: rgb(255, 255, 255);
         position: absolute;
         top: 50%;
-        left: 75%;
+        left: 77%;
         transform: translate(-50%, -50%);
         width: 470px;
-        height: 570px;
+        height: 580px;
         background:rgb(0, 0, 0);
         padding: 20px;
         border-color:transparent;
@@ -72,6 +70,11 @@ body{
     display: flex;
     justify-content: center;
     font-size: 55px;
+}
+
+.box hr{
+    width: 200px;
+    margin-left: 120px;
 }
 
 .btn{
