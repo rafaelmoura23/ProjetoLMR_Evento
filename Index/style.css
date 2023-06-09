@@ -161,18 +161,17 @@ body.dark{
 }
 
 .carousel-inner {
-    display: flex;
-    align-items: center;
     color: white;
     width: 1400px;
     height: 600px;
     border-radius: 20px;
+    padding: 0%;
+    box-shadow: 10px 10px 10px rgb(14, 14, 14);
 }
 
 .carousel-inner img {
-    width: 1400px;
+    width: 1200px;
     height: 600px;
-    border: 2px;
     border-radius: 20px;
 }
 
