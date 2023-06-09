@@ -182,6 +182,7 @@ body.dark{
     background-color: transparent;
     border-color: transparent;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .eventosImagens {
