@@ -11,7 +11,7 @@ body {
 }
 
 body.dark{
-    background-color: #00586a;
+    background-color: rgba(17, 87, 119, 0.68);
 }
 
 .checkbox{
@@ -170,7 +170,7 @@ body.dark{
 }
 
 .carousel-inner img {
-    width: 1200px;
+    width: 1400px;
     height: 600px;
     border-radius: 20px;
 }
