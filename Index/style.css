@@ -7,11 +7,14 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;  
     transition: background 0.2s linear ;
-
 }
 
 body.dark{
     background-color: rgba(17, 87, 119, 0.68);
+}
+
+.nav a.dark{
+    color: black;
 }
 
 .checkbox{
