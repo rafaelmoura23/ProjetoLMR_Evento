@@ -70,14 +70,14 @@ body {
 
 .btn{
     padding: 10px;
-    width: 180px;
+    width: 365px;
     border-radius: 15px;
-    color: rgb(0, 0, 0);
-    background-color:white;
+    color: rgb(255, 255, 255);
+    background-color:rgb(14, 0, 66);
     font-size: 22px;
     border: none;
     float: center;
-    margin-left: 115px;
+    margin-left: px;
 }
 
 .btn:hover{
