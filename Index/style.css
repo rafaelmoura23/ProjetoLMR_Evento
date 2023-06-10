@@ -13,10 +13,6 @@ body.dark{
     background-color: rgba(17, 87, 119, 0.68);
 }
 
-.nav a.dark{
-    color: black;
-}
-
 .checkbox{
     opacity: 0;
     position: absolute;
@@ -64,13 +60,13 @@ body.dark{
     color: #f39c12;
 }
 
-.nav{
+#navBarLink{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav a{
+#navBarLink a{
     color: white;
     text-decoration: none;
     padding: 0px 50px 10px 0;
@@ -79,7 +75,7 @@ body.dark{
     position: relative;
 }
 
-.nav a::after{
+#navBarLink a::after{
     content: " ";
     width: 0%;
     height: 4px;
@@ -90,7 +86,7 @@ body.dark{
     transition: 0.5s ease-in-out;
 }
 
-.nav a:hover::after{
+#navBarLink a:hover::after{
     width: 100%;
 }
 
@@ -320,3 +316,7 @@ p{
     width: 50px;
 }
 
+#footerHome{
+    text-decoration: none;
+    
+}
