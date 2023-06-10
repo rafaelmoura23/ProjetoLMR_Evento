@@ -7,6 +7,6 @@ chk.addEventListener('change', () =>{
 function sair(){
     let deslogar = document.getElementById("deslogar").value;
 
-    alert("Você Deslogou!")
+    alert("You logged out!")
     window.location.href = "index.html";
 }
