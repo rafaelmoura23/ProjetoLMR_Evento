@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+body{
+    background-image: url(img/Backgorund_page.jpg);
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+}
+
+#navBarLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navBarLink a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+#navBarLink a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+#navBarLink a:hover::after{
+    width: 100%;
+}
+
+.parte1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.parte1 img{
+    border-radius: 10px;
+}
+
+.parte1 iframe{
+    border-radius: 10px;
+}
+
+.parte1 h2{
+    color: rgb(77, 77, 77);
+    font-size: 50px;
+}
+
+.parte2{
+    margin-left: 25%;
+}
+
+.parte2 iframe{
+    border-radius: 10px;
+}
+
+.parte2 h1{
+    font-size: 50px;
+}
+
+
+
+
+footer {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+hr{
+    color: white;
+}
