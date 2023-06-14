@@ -200,6 +200,7 @@ body.dark{
     box-shadow: 10px 10px 10px rgb(14, 14, 14);
 }
 
+
 h3 {
     color: rgb(255, 255, 255);
 }
@@ -319,4 +320,8 @@ p{
     width: 50px;
 }
 
-  
+
+.modal-content{
+    color: white;
+    background-color: #000000;
+}
