@@ -109,3 +109,13 @@ body{
 hr{
     color: white;
 }
+
+footer {
+    text-decoration: none;
+    font-size: 18px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+

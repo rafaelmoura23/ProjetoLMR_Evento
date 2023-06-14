@@ -10,7 +10,8 @@ body {
 }
 
 body.dark{
-    background-color: rgba(17, 87, 119, 0.68);
+    background-color: rgba(60, 114, 139, 0.68);
+    color: #000000;
 }
 
 .checkbox{
