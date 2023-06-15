@@ -5,6 +5,7 @@ body{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
     color: rgb(255, 255, 255);
+    background-attachment: fixed;
 }
 
 #navBarLink{
@@ -85,14 +86,13 @@ color: rgb(255, 255, 255);
 }
 
 .parte2 h1{
-    font-size: 50px;
-    margin-left: 86px;
-    text-shadow:-1px -1px 0px #000000, 
-    -1px 1px 0px #000000,                    
-     1px -1px 0px #000000,                  
-     1px 0px 0px #000000;;
-     border-style: solid;
-     color: rgb(245, 131, 0);
+    font-size: 55px;
+    margin-left: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow:-1px -1px 0px #ff9100, 
+    -1px 1px 0px #ff9100,                    
+     1px -1px 0px #ff9100,                  
+     1px 0px 0px #ff9100;
 }
 
 .parte3 img{

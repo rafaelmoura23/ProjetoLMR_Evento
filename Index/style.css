@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url(img/parte3.png);
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;  
-    transition: background 0.2s linear ;
+    background-attachment: fixed;
 }
 
 body.dark{
