@@ -126,9 +126,14 @@ footer {
     text-decoration: none;
     font-size: 18px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 1360px){
+    .box{margin-bottom: 300px;}
+
 }
 
 @media screen and (max-width: 998px){
@@ -141,6 +146,4 @@ footer {
     #pPassword{font-size: 15px;}
     .box h2{font-size: 30px;}
     .mb-3{font-size: 20px;}
-
-
     }
