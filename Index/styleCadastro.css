@@ -119,28 +119,28 @@ hr{
     transform: translate(-50%, -50%);
     border-radius: 20px;
     opacity: 80%;
- 
 }
 
-.gifTerra{
-    float: right;
-    border-radius:10px;
-    margin-top: 3px;
-    width: 550px;
-    height: 595px;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, -50%);
-    border-radius: 10px;
-}
 
 footer {
     text-decoration: none;
     font-size: 18px;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     text-align: center;
 }
+
+@media screen and (max-width: 998px){
+    .caixaAtras{height: 0px;}
+    .box{height: 550px; margin-left: 350px; margin-top:100px;}
+    footer{display: none;}
+    #pSenha{font-size: 15px;}
+    #pNome{font-size: 15px;}
+    #pLastName{font-size: 15px;}
+    #pPassword{font-size: 15px;}
+    .box h2{font-size: 30px;}
+    .mb-3{font-size: 20px;}
+
+
+    }
