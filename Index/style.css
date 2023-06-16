@@ -105,6 +105,7 @@ body.dark{
     color: white;
     display: flex;
     align-items:center;
+    opacity: 95%;
 }
 
 .titleBox h1{
@@ -167,6 +168,9 @@ body.dark{
     border-radius: 20px;
     padding: 0%;
     box-shadow: 10px 10px 10px rgb(14, 14, 14);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .carousel-inner img {
