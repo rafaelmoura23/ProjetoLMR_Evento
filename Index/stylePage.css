@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 body{
-    background-image: url(img/gargantua-black-2880x1800-9659.jpg);
+    background-image: url(img/32608.jpg);
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
@@ -27,7 +27,7 @@ body{
     content: " ";
     width: 0%;
     height: 4px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(74, 0, 104);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -49,7 +49,7 @@ body{
     width: 800px;
     border-radius: 25px;
     border: 5px;
-    border-color: rgb(245, 131, 0);
+    border-color: rgb(74, 0, 104);
     border-style: solid;
 }
 
@@ -88,11 +88,11 @@ color: rgb(255, 255, 255);
 .parte2 h1{
     font-size: 55px;
     margin-left: 45px;
-    color: rgb(0, 0, 0);
-    text-shadow:-1px -1px 0px #ff9100, 
-    -1px 1px 0px #ff9100,                    
-     1px -1px 0px #ff9100,                  
-     1px 0px 0px #ff9100;
+    color: rgb(255, 255, 255);
+    text-shadow:-1px -1px 0px #800085, 
+    -1px 1px 0px #800085,                    
+     1px -1px 0px #800085,                  
+     1px 0px 0px #800085;
 }
 
 .parte3 img{
@@ -102,13 +102,13 @@ color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 5px;
     border-style: solid;
-    border-color: rgb(245, 131, 0);
+    border-color:  rgb(74, 0, 104);
 }
 
 .parte3 h1{
     font-size: 80px;
     margin-left: 200px;
-    color: rgb(245, 131, 0);
+    color:rgb(255, 255, 255);
     text-shadow:-1px -1px 0px #000000, 
     -1px 1px 0px #000000,                    
      1px -1px 0px #000000,                  
@@ -129,7 +129,7 @@ footer {
     height: 95px;
     border-radius: 15px;
     color: rgb(255, 255, 255);
-    background-color:rgb(245, 131, 0);
+    background-color:rgb(74, 0, 104);
     font-size: 50px;
     margin-left: 750px;
     transform: translateY(0px);
