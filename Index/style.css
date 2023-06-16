@@ -329,3 +329,29 @@ p{
     color: white;
     background-color: #000000;
 }
+
+
+@media screen and (max-width: 998px){
+
+    .titleBox{width: 950px; justify-content: center;}
+    .titleBox h1{margin-left: -100px;}
+    .titleBox img{margin-left: -100px;}
+    #btnKnow{margin-left: -600px; margin-top: 300px;}
+
+
+    .carousel-inner{}
+    .carousel-inner img{}
+
+
+
+
+    .parte1{margin-left: 10px;}
+    .parte1 img{width: 600px;}
+    .parte1 .texto{margin-top: 700px; margin-left: -700px;}
+    .parte2{margin-left: 10px;}
+    .parte2 iframe{width: 600px;}
+    .parte3 img{width: 600px; margin-left: 10px;}
+    .parte3 h1{font-size: 50px; margin-left: 1px;}
+    .btn{margin-left: 10px;}
+    footer{display: none;}
+    }
