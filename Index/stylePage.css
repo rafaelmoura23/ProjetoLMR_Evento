@@ -58,23 +58,35 @@ body{
     display: flex;
     justify-content: center;
     margin-left: 150px;
-    border-color: black;
-    border-style: solid;
-    border: 5px;
 }
 
 .parte1 h1{
     color: rgb(252, 252, 252);
     font-size: 50px;
+    text-shadow:-1px -1px 0px #800085, 
+    -1px 1px 0px #800085,                    
+     1px -1px 0px #800085,                  
+     1px 0px 0px #800085;
+
 }
 
 .parte1 h2{
     color: rgb(255, 255, 255);
     font-size: 50px;
+    text-shadow:-1px -1px 0px #800085, 
+    -1px 1px 0px #800085,                    
+     1px -1px 0px #800085,                  
+     1px 0px 0px #800085;
 }
+
+
 
 .parte1 u{
 color: rgb(255, 255, 255);
+text-shadow:-1px -1px 0px #800085, 
+    -1px 1px 0px #800085,                    
+     1px -1px 0px #800085,                  
+     1px 0px 0px #800085;
 }
 
 .parte2{
@@ -82,7 +94,7 @@ color: rgb(255, 255, 255);
 }
 
 .parte2 iframe{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .parte2 h1{
@@ -119,7 +131,7 @@ color: rgb(255, 255, 255);
 
 footer {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 }
 
