@@ -155,7 +155,7 @@ p{
 
 @media screen and (max-width: 998px){
     .caixaAtras{height: 0px;}
-    .box{height: 550px; margin-left: 350px; margin-top:100px;}
+    .box{height: 600px; margin-top:100px;}
     footer{display: none;}
     #pSenha{font-size: 15px;}
     #pNome{font-size: 15px;}
