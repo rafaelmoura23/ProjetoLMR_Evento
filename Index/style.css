@@ -167,7 +167,7 @@ body.dark{
     height: 600px;
     border-radius: 20px;
     padding: 0%;
-    box-shadow: 10px 10px 10px rgb(14, 14, 14);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
